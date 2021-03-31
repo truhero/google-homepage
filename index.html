@@ -3,13 +3,112 @@
 
 <!DOCTYPE html>
 
-<html>
-    <head>
-        We did it.
-    </head>
+<style>
+    body {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        color: black;
+        background: #fff; 
+    }
     
-    <body>
-            JOE
-    </body>
+    /* ------ TOP NAVIGATION BAR */
+    .topNav{
+        overflow: hidden;
+        font-size: 17px; 
+    }
+
+    .topNav a {
+        float: left;
+        text-align: center;
+        color: #222;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+    .topNav-right{
+        float: right;
+    }
+
+    .topNav a:hover, .topNav a:active {
+        text-decoration: underline;
+    }
+
+    /* ------ BOTTOM NAVIGATION BAR */
+    .bottomNav{
+        overflow: hidden;
+        font-size: 17px;
+        bottom: 0;
+        background: rgb(243, 243, 243);
+        
+    }
+
+    .bottomNav a {
+        float: left;
+        text-align: center;
+        color: #222;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+
+    .bottomNav-right{
+        float: right;
+    }
+
+    .bottomNav a:hover, .bottomNav a:active {
+        text-decoration: underline;
+    }
+
+    /* ----- GOOGLE LOGO --------*/
+    .logo {
+        display: block;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    
+</style>
+
+
+<html>
+    <meta charset=utf-8> <!--Specifies the character encoding for the HTML document.-->
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <header> 
+        <title>Google</title>
+    </header>
+        <body>
+            <!--TOP NAV BAR-->
+            <div class="topNav">
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                <div class="topNav-right">
+                    <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
+                    <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+                </div>
+            </div>
+            <!--GOOGLE LOGO-->
+            <div>
+                <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            <!--SEARCH BAR-->
+            <div>
+                
+            </div>
+            <!--BOTTOM NAV BAR-->
+            <footer>
+                <div class="bottomNav">
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">How Search works</a>
+                    <div class="bottomNav-right">
+                        <a href="">Privacy</a>
+                        <a href="">Terms</a>
+                        <a href="">Settings</a>
+                    </div>
+                </div>
+            </footer>   
+            
+
+
+        </body>
 
 </html>
