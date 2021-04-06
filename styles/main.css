@@ -1,5 +1,6 @@
 .page-container {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -10,8 +11,7 @@ body {
     color: #222;
     background: #fff;
     width: 100%;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 ul{
@@ -42,11 +42,12 @@ ul{
 }
 .bottom-nav-bar {
     position: fixed;
-    padding: 18px;    
+    box-sizing: border-box;
+    padding: 18px 48px; 
     background: rgb(243, 243, 243);
     bottom: 0px;
-    width: 96%;
-    font-size: 18px;
+    width: 100%;
+    font-size: 17px;
 }
 
 .bottom-nav-bar-left-item {
