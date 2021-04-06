@@ -3,125 +3,44 @@
 
 <!DOCTYPE html>
 
-<style>
+<html lang="en">
+    <head>
+        <meta charset= "UTF-8"/>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
 
-    html, body{
-        margin: 0;
-        height: 100%;
-    }
-
-    body {
-        
-        font-size: 16px;
-        font-family: arial, sans-serif;
-        color: black;
-        background: #fff; 
-    }
-    
-    /* ------ TOP NAVIGATION BAR */
-    .topNav{
-        overflow: hidden;
-        font-size: 17px; 
-    }
-
-    .topNav a {
-        float: left;
-        text-align: center;
-        color: #222;
-        padding: 15px 15px;
-        text-decoration: none;
-    }
-    .topNav-right{
-        float: right;
-    }
-
-    .topNav a:hover, .topNav a:active {
-        text-decoration: underline;
-    }
-
-    /* ------ BOTTOM NAVIGATION BAR */
-    .bottomNav{
-        overflow: hidden;
-        font-size: 17px;
-        background: rgb(243, 243, 243);        
-        
-    }
-
-    .bottomNav a {
-        float: left;
-        text-align: center;
-        color: #222;
-        padding: 15px 15px;
-        text-decoration: none;
-    }
-
-    .bottomNav-right{
-        float: right;
-    }
-
-    .bottomNav a:hover, .bottomNav a:active {
-        text-decoration: underline;
-    }
-
-    /* ----- GOOGLE LOGO --------*/
-    .logo {
-        display: block;
-        margin-top: 15%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 23%;
-    }
-
-    /* ----- SEARCH BAR --------*/
-    .search-bar {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding-top: 100px;
-        
-    }
-
-    
-</style>
-
-
-<html>
-    <meta charset=utf-8> <!--Specifies the character encoding for the HTML document.-->
-    <meta name="viewpoint" content="width=device-width, initial-scale=1">
-    <header> 
         <title>Google</title>
-    </header>
-        <body>
-            <!--TOP NAV BAR-->
-            <div class="topNav">
-                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
-                <div class="topNav-right">
-                    <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
-                    <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
-                </div>
-            </div>
-            <!--GOOGLE LOGO-->
-            <div>
-                <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" >
-            </div>
-            <!--SEARCH BAR-->
-            <div class="search-bar">
-                <input type="text" name="" placeholder="">
-            </div>
-            <!--BOTTOM NAV BAR-->
-            <footer>
-                <div class="bottomNav">
-                    <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-                    <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-                    <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
-                    <div class="bottomNav-right">
-                        <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
-                        <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
-                        <a href="">Settings</a>
-                    </div>
-                </div>
-            </footer>   
-        </body>
 
+        <link rel="stylesheet" href="main.css" />
+    </head>
+
+    <body>
+        <div class="page-containter">
+            <!--TOP NAV BAR -->
+            <ul class="top-nav-bar">
+                <li class="top-nav-bar-left-item"><a href="#">About</a></li>
+                <li class="top-nav-bar-left-item"><a href="#">Store</a></li>
+                <li class="top-nav-bar-right-item"><a href="#">Images</a></li>
+                <li class="top-nav-bar-right-item"><a href="#">Gmail</a></li>
+            </ul>
+            
+            <!-- MAIN -->
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" >
+            <form>
+                <input type="text" name="search">
+            </form>
+            <div class="button-container">
+                <button class="button" id="button1" href="#">Google Search</a>
+                <button class="button" id="button2" href="#">I'm Feeling Lucky</div>
+            </div>
+            <!-- BOTTOM NAV BAR -->
+            <div class="bottom-nav-bar">
+                <div class="bottom-nav-bar-left-item"><a href="#">Advertising</a></div>
+                <div class="bottom-nav-bar-left-item"><a href="#">Business</a></div>
+                <div class="bottom-nav-bar-left-item"><a href="#">How Search works</a></div>
+                <div class="bottom-nav-bar-right-item"><a href="#">Settings</a></div>
+                <div class="bottom-nav-bar-right-item"><a href="#">Terms</a></div>
+                <div class="bottom-nav-bar-right-item"><a href="#">Privacy</a></div>  
+            </div>
+        </div>
+    </body>
 </html>

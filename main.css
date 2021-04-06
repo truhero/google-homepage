@@ -1,0 +1,144 @@
+
+.page-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #fff;
+    width: 100%;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.top-nav-bar {
+    padding: 15px 20px; 
+}
+
+.top-nav-bar-left-item {
+    float: left;
+    padding-right: 15px;
+}
+
+.top-nav-bar-right-item {
+    float: right;
+    padding-left: 15px;
+}
+
+.top-nav-bar-right-item img{
+    height: 25px;
+    padding-bottom: -10px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.top-nav-bar-right-item img:hover{
+    background-color: #70757a;
+}
+
+.logo {
+    display: block;
+    margin-top: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+
+}
+.bottom-nav-bar {
+    position: fixed;
+    padding: 20px 20px;    
+    background: rgb(243, 243, 243);
+    bottom: 0;
+    width: 96%;
+}
+
+.bottom-nav-bar-left-item {
+    float: left;
+    padding-right: 40px;
+}
+
+.bottom-nav-bar-right-item {
+    float: right;
+    padding-left: 40px;
+}
+.bottom-nav-bar a {
+    color: #70757a;
+}
+
+input[type=text]{
+    display:block ;
+    width: 700px;
+    height: 49px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    border: 1px solid #dfe1e5 ;
+    border-radius: 24px;
+    background-image: url('magnifying-glass.png');
+    background-size: 35px;
+    background-position: 10px 9.5px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+
+input:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+
+input:focus{
+    outline: none ; 
+}
+
+a {
+    text-decoration: none; 
+    color:#222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    display:block ;
+    width: 500px;
+    height: 44px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.button {
+    font-size: 16px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #3c4043;  
+    background-color: #f8f9fa; 
+    border: none;
+    margin: 5px;
+    padding: 13px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+button:focus {
+    box-shadow: none;
+    outline: 1px solid #4d90fe;
+}
+
+
+
