@@ -1,7 +1,5 @@
-
 .page-container {
     height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -43,10 +41,11 @@ ul{
 }
 .bottom-nav-bar {
     position: fixed;
-    padding: 20px 20px;    
+    padding: 18px;    
     background: rgb(243, 243, 243);
-    bottom: 0;
-    width: 96%;
+    bottom: 0px;
+    width: 100%;
+    font-size: 18px;
 }
 
 .bottom-nav-bar-left-item {
