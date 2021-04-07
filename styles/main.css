@@ -1,8 +1,6 @@
 .page-container {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
 }
 
 body {
@@ -19,17 +17,59 @@ ul{
 }
 
 .top-nav-bar {
-    padding: 15px 20px; 
+    padding: 10px 30px; 
 }
 
 .top-nav-bar-left-item {
     float: left;
     padding-right: 15px;
+    padding-top: 15px;
 }
 
 .top-nav-bar-right-item {
     float: right;
     padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.google-waffle-button img {
+    float: right;
+    width: 22px;
+    padding-top: 12px;
+    padding-right: 15px; 
+    padding-bottom: 10px; 
+    padding-left: 13px;
+}
+
+.google-waffle-button img:hover{
+    border-radius: 50px;
+    background: rgb(201, 201, 201);
+}
+
+.google-sign-in {
+    float: right;
+    padding-left: 24px;
+    padding-bottom: 3px;
+}
+
+.sign-in-button{
+    background: #1a73e8;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color:#fff;
+    font-size: 17px;
+    border: 1px solid transparent;
+    min-width: 120px;
+    min-height: 46px;
+    padding: 9px 15px;
+    border-radius: 5px;
+}
+
+.sign-in-button:focus{
+    box-shadow: none;
+    outline: 0;
+    background: #4285f4;
+
 }
 
 .logo {
@@ -42,22 +82,23 @@ ul{
 }
 .bottom-nav-bar {
     position: fixed;
-    box-sizing: border-box;
     padding: 18px 48px; 
     background: rgb(243, 243, 243);
     bottom: 0px;
     width: 100%;
     font-size: 17px;
+    box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .bottom-nav-bar-left-item {
     float: left;
-    padding-right: 40px;
+    padding-right: 35px;
 }
 
 .bottom-nav-bar-right-item {
     float: right;
-    padding-left: 40px;
+    padding-left: 35px;
 }
 .bottom-nav-bar a {
     color: #70757a;
@@ -73,11 +114,12 @@ input[type=text]{
     font-size: 18px;
     border: 1px solid #dfe1e5 ;
     border-radius: 24px;
-    background-image: url("../images/magnifying-glass.png");
-    background-size: 35px;
-    background-position: 10px 9.5px;
-    background-repeat: no-repeat;
-    padding-left: 45px;
+    background-image: url("../images/magnifying-glass.png"), url("../images/google-microphone.png");
+    background-size: 35px, 25px;
+    background-position: 10px 9.5px, 745px 9.5px;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 50px;
+    padding-right: 40px;
 }
 
 
